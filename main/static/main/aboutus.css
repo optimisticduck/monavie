@@ -1,0 +1,119 @@
+/*
+colors
+  brown = rgb(143, 104, 68);
+
+
+*/
+a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+
+
+a:hover{
+ color: rgb(255, 255, 255);
+}
+
+
+#menubar{
+  background-color: rgb(143, 104, 68);
+  font-size: 1.5rem;
+  min-height: 4ch;
+  padding-top: 0.5ch;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 200;
+}
+
+#address{
+  font-size: 1.1rem;
+  background-color: burlywood;
+}
+
+#title{
+  color: rgb(46, 19, 8);;
+  font-size: 10rem;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: -2px 0px #ffd000;
+  font-weight: 1000;
+}
+
+#ordernow{
+  background-color: rgb(143, 104, 68);
+  font-size: 4ch;
+  border-radius: 7ch;
+  width: 30%;
+  margin-top: 2%;
+}
+
+#ordernow:hover{
+  background-color: rgb(223, 139, 71);
+  color: black;
+  font-size: 4ch;
+  border-radius: 7ch;
+  width: 30%;
+}
+
+
+.textover{
+  background-image: url(https://i.ibb.co/zVx7C15/6307467869-610137be5f-o.jpg);
+  background-size: cover;
+  color:white;
+  filter: grayscale(10%);
+  height: 30rem;
+  background-color: rgba(255, 0, 0, 0.5); /* Tint color */
+  background-blend-mode: multiply;
+  filter: sepia(70%);
+}
+
+#mainbody_backgroundimage
+{
+  background: url(https://images3.alphacoders.com/665/665435.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+
+.supptext
+{
+    padding-left: 3%;
+    border-top: 5em;
+    background-color: rgb(194, 140, 69);
+    color: whitesmoke;
+    margin-bottom: 5em;
+}
+
+.proctext
+{
+    padding-left: 3%;  
+    border-top: 5em; 
+    background-color: rgb(165, 105, 27); 
+    color: whitesmoke; 
+    margin-bottom: 5em;
+}
+
+.servtext
+{
+    padding-left: 3%;  
+    border-top: 5em;  
+    background-color: rgb(116, 74, 19);  
+    color: whitesmoke; 
+    margin-bottom: 5em;
+}
+
+
+.col-sm-4
+{
+  border-radius: 25px;
+  padding: 1em;  
+
+}
+
+
+
+  #mailinglist
+  {
+    margin-top: 5em;
+  }

@@ -1,0 +1,179 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monavie</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="{%static 'main/all.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+
+
+<div id=mainbody_backgroundimage style="min-height: 30rem;">
+</div>
+<div id=mainbody>
+
+
+
+  <div id=menubar class="container-fluid sticky-top">
+    <div class="row text-center">
+      <a class="col-sm-3" href="{% url 'home' %}">HOME</a>
+      <a class="col-sm-3" href="{% url 'shop' %}">SHOP</a>
+      <a class="col-sm-3" href="{% url 'aboutus' %}">ABOUT US</a>
+      <a class="col-sm-3" href="{% url 'faq' %}">FAQ</a>
+    </div>
+
+  </div>
+
+  <div id=address class="text-center container-fluid">
+    Jahangir Gate, New Airport Road, Dhaka 1206
+  </div>
+  <div id=title class="text-center">
+    Monavie
+    <div id=subtitle class="text-center">
+      <h2>Gourmet Beef Jerky And Fresh Cuts</h2>
+    </div>
+  </div>
+  <div id=ordernow class="container-fluid">
+    <div class="row text-center">
+      <a class="col-sm-12" href="{% url 'ordernow' %}">Order Now</a>
+    </div>
+
+  </div>
+
+  <div id="gallery" class="text-center">
+    <div id="gallery_heading">
+      <h2>
+        Do you see your next meal?
+      </h2>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <img class="col-sm-4"
+          src="https://www.mashed.com/img/gallery/this-is-how-beef-jerky-is-really-made/intro-1589899944.jpg" alt="">
+        <img class="col-sm-4"
+          src="https://www.greedyferret.com/wp-content/uploads/2020/10/perfect-biltong-slices-on-chopping-board.jpg"
+          alt="">
+        <img class="col-sm-4" src="https://img-global.cpcdn.com/recipes/805af775e0d7a610/1200x630cq70/photo.jpg" alt="">
+      </div>
+      <div class="row">
+        <img class="col-sm-4" src="https://schweidandsons.com/wp-content/uploads/2015/12/Pre-Ground-Beef.jpg" alt="">
+        <img class="col-sm-4"
+          src="https://tasteofartisan.com/wp-content/uploads/2019/01/Make-beef-jerky-in-the-oven-hanging.jpg" alt="">
+        <img class="col-sm-4"
+          src="https://www.yoranchsteakhouse.com/wp-content/uploads/2019/01/salt-your-steak-like-a-downtown-steakhouse-in-2019-900x600.jpg"
+          alt="">
+      </div>
+      <div class="row">
+        <img class="col-sm-4"
+          src="https://i1.wp.com/blog.blueapron.com/wp-content/uploads/2020/11/lamb-chop.jpg?resize=1024%2C682&ssl=1"
+          alt="">
+        <img class="col-sm-4"
+          src="https://www.mashed.com/img/gallery/this-is-how-beef-jerky-is-really-made/the-best-cuts-of-meat-make-the-best-beef-jerky-1589899944.jpg"
+          alt="">
+        <img class="col-sm-4"
+          src="https://media.istockphoto.com/photos/mince-ground-meat-with-ingredients-for-cooking-on-black-background-picture-id907849968?k=6&m=907849968&s=612x612&w=0&h=DhLHzCD_PsuZZJJkti5PweAqliDcGHT87HlLv4uUlr8="
+          alt="">
+      </div>
+      <div class="row">
+        <img class="col-sm-4" src="https://cdn.pixabay.com/photo/2018/05/08/18/40/cow-3383624__340.jpg" alt="">
+        <img class="col-sm-4" src="https://cdn.britannica.com/63/145563-050-5E0EC254/water-buffalo.jpg" alt="">
+        <img class="col-sm-4" src="https://dailyasianage.com/library/1473624140_5.jpg" alt="">
+      </div>
+      <div class="row">
+        <img class="col-sm-4" src="http://www.chashtea.co.uk/wp-content/uploads/2017/08/home-bg.jpg" alt="">
+        <img class="col-sm-4" src="https://images.herzindagi.info/image/2020/Aug/raw-paneer-for-health.jpg" alt="">
+        <img class="col-sm-4" src="https://ak.picdn.net/shutterstock/videos/1016061280/thumb/1.jpg" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <div id="bottompart">
+    <div id="mailinglist" class="text-center">
+      <div id="mailinglist_heading">
+        <h2>
+          Join our mailing list
+        </h2>
+      </div>
+      <input type="text"><br><br>
+      <input type="submit" value="Submit">
+    </div>
+    <div id="mapsection" class="text-center">
+      <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+          height: 500px;
+          /* The height is 400 pixels */
+          width: 70%;
+          /* The width is the width of the web page */
+          margin: auto;
+          margin-bottom: 2%;
+        }
+      </style>
+      <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          const uluru = { lat: 23.7759674136961, lng: 90.39086306160682 };
+          // The map, centered at Uluru
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 17,
+            center: uluru,
+          });
+          // The marker, positioned at Uluru
+          const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+          });
+        }
+      </script>
+      <!--The div element for the map -->
+      <div id="map"></div>
+
+      <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVfxKB9p4CAhC9FL1hcaGSNs49R7SVELk&callback=initMap&libraries=&v=weekly"
+        async></script>
+    </div>
+    <div id="contact" class="text-center">
+      <div id="contact_heading">
+        <h2>Contact Us</h2>
+      </div>
+      <input type="text" id="name" name="name" placeholder="Name"><br><br>
+      <input type="text" id="message" name="message" placeholder="Message"><br><br>
+      <input type="submit" value="Submit">
+    </div>
+
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright :
+        <a class="text-dark" href="">Monavie</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light py-0" ;>
+      <a class="navbar-brand" href="#">Monavie</a>
+    </nav>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

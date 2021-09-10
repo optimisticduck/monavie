@@ -1,0 +1,190 @@
+/*
+colors
+  brown = rgb(143, 104, 68);
+
+
+*/
+a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+#gallery_heading{
+  margin-top: 8%;
+  color: rgb(95, 27, 0);
+  font-size: 10rem;
+  font-family:Impact, Haettenschweiler, 'Narrow', sans-serif;
+  width: 100%;
+
+}
+
+a:hover{
+ color: rgb(212, 193, 193);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  text-align: right;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  opacity: 1;
+}
+
+#ordernow{
+  background-color: rgb(143, 104, 68);
+  font-size: 4ch;
+  border-radius: 7ch;
+  width: 30%;
+  margin-top: 2%;
+}
+
+#ordernow:hover{
+  background-color: rgb(223, 139, 71);
+  color: black;
+  font-size: 4ch;
+  border-radius: 7ch;
+  width: 30%;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: ;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+#bottompart{
+  background-color: rgb(231, 182, 136);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#menubar{
+  background-color: rgb(143, 104, 68);
+  font-size: 1.5rem;
+  min-height: 4ch;
+  padding-top: 0.5ch;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 200;
+}
+
+#address{
+  font-size: 1.4rem;
+  background-color: burlywood;
+  font-family:'Times New Roman', Times, serif;
+}
+
+#title{
+  color: rgb(46, 19, 8);
+  font-size: 10rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 1000;
+  width: 100%;
+}
+
+
+img:hover{
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  -webkit-transition: transform 0.3s ease-in-out;
+}
+
+img{
+  filter: grayscale(70%);
+}
+
+#ordernow{
+  background-color: rgb(143, 104, 68);
+  font-size: 4ch;
+  border-radius: 7ch;
+  width: 30%;
+  margin-top: 2%;
+}
+
+#ordernow:hover{
+  background-color: rgb(223, 139, 71);
+  color: black;
+  font-size: 4ch;
+  border-radius: 7ch;
+  width: 30%;
+}
+
+
+.textover{
+  background-image: url(https://i.ibb.co/zVx7C15/6307467869-610137be5f-o.jpg);
+  background-size: cover;
+  color:white;
+  filter: grayscale(10%);
+  height: 30rem;
+  background-color: rgba(255, 0, 0, 0.5); /* Tint color */
+  background-blend-mode: multiply;
+  filter: sepia(70%);
+}
+
+.supptext
+{
+  border-top: 5em;
+  background-color: burlywood;
+  color: whitesmoke;
+}
+
+.col-sm-4
+{
+  
+  border-radius: 25px;
+  padding: 1em;  
+  /*box-shadow: 0.5rem 0.6rem rgba(0, 0, 0, 0.164);*/
+
+}
+
+
+footer {
+  margin-bottom: 2%;
+  color: rgb(46, 19, 8);
+}
+
+#mainbody_backgroundimage
+{
+  background: url(https://images3.alphacoders.com/665/665435.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  #mailinglist
+  {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    color: rgb(95, 27, 0);
+    font-size: 1.4rem;
+    font-family:'Bebas Neue', cursive;
+    width: 100%;
+  }
+
+  #contact
+  {
+    margin-top: 1em;
+    color: rgb(95, 27, 0);
+    font-size: 1.5rem;
+    font-family:'Bebas Neue', cursive;
+    width: 100%;
+    padding-bottom: 1em;
+  }
+ 
