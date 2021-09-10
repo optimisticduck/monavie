@@ -149,9 +149,12 @@
       <div id="contact_heading">
         <h2>Contact Us</h2>
       </div>
-      <input type="text" id="name" name="name" placeholder="Name"><br><br>
-      <input type="text" id="message" name="message" placeholder="Message"><br><br>
-      <input type="submit" value="Submit">
+      <form action="{% url 'home' %}" method="post">
+        {% csrf_token %}
+        <input type="text" id="name" name="name" placeholder="Name"><br><br>
+        <input type="text" id="message" name="message" placeholder="Message"><br><br>
+        <input type="submit" value="Submit">
+      </form>
     </div>
 
     <footer class="bg-light text-center text-lg-start">
