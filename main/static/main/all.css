@@ -235,7 +235,7 @@ footer {
 
 #mainbody_backgroundimage
 {
-  background: url(https://images3.alphacoders.com/665/665435.jpg) no-repeat center center fixed;
+  background: url(https://www.subzero-wolf.com/-/media/images/united-states/recipes-images/food_beef_jerky_slg_51617.jpg?as=1&h=875&la=en-us&w=2000&udi=1&cropregion=0,574,5000,2762) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -268,6 +268,7 @@ footer {
     margin: 1.5;
     font-size: xx-small;
   }
+
   .accordion-item
   {
     color: whitesmoke;

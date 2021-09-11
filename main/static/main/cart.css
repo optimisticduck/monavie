@@ -1,0 +1,155 @@
+.products-container
+{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;    
+}
+
+.container, 
+.products-container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+
+.products-container ion-icon
+{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 1px;
+    margin-right: 10px;
+    cursor: pointer;
+    align-items: ;
+}
+.product-header
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    border-bottom: 4px solid black;
+}
+
+.product-title
+{
+    text-align: left;
+    width: 18%;
+    margin-left: 20.5%;
+}
+
+.price
+{
+    text-align: left;
+    width: 12%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.quantity
+{
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.total
+{
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.product
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+#clearCache p button
+{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(228, 166, 104);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#clearCache p button:hover
+{
+    color: rgb(46, 19, 8);
+}
+
+#orderdetails a
+{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(228, 166, 104);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#orderdetails a:hover
+{
+    color: rgb(46, 19, 8);
+}
+
+.products
+{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.basketTotalContainer
+{
+    float: inline-end;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0; 
+    ;
+}
+
+
+.basketTotalTitle
+{
+    width: 30%;
+    font-size: xx-large;
+}
+
+.basketTotal
+{
+    width: 30%;
+    font-size: xx-large;
+    margin-right: 1rem;
+}
+
+.basketTotalContainer
+{
+    width: 100%;
+}
+
