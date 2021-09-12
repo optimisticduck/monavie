@@ -4,3 +4,4 @@ from .models import *
 # Register your models here.
 
 admin.site.register(ContactUs_T)
+admin.site.register(Orders_T)

@@ -42,4 +42,26 @@ def cart(request):
 
 
 def orderdetails(request):
-    return render(request, "main/orderdetails.html")
+    if request.method == "POST":
+        fname = request.POST["fname"]
+        lname = request.POST["lname"]
+        number = request.POST["number"]
+        cusaddress = request.POST["cusaddress"]
+        delins = request.POST["delins"]
+        totalCost = request.POST["totalCost"]
+        itemsOrdered = request.POST["itemsOrdered"]
+
+        orders = Orders_T(
+            fname=fname,
+            lname=lname,
+            number=number,
+            cusaddress=cusaddress,
+            delins=delins,
+            totalCost=totalCost,
+            itemsOrdered=itemsOrdered,
+        )
+
+        orders.save()
+        return render(request, "main/orderdetails.html")
+    else:
+        return render(request, "main/orderdetails.html")

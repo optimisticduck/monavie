@@ -93,6 +93,7 @@ a:hover{
   font-family:'Times New Roman', Times, serif;
 }
 
+
 #title{
   color: rgb(46, 19, 8);
   font-size: 10rem;
@@ -262,7 +263,8 @@ footer {
     width: 100%;
     padding-bottom: 1em;
   }
- 
+
+
   .FAQcontainer
   {
     margin: 1.5;
