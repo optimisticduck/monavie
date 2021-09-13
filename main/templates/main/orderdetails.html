@@ -45,7 +45,7 @@
     </div>
   </div>
   <div id=orderdetails style="text-align: center;">
-    <form action="#" method="post" onsubmit="return validateFormOnSubmit(this);">
+    <form action="{% url 'orderdetails' %}" method="post" onsubmit="return validateFormOnSubmit(this);">
       {% csrf_token %}
       <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
       <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
@@ -73,7 +73,7 @@
   <script>
     function validateFormOnSubmit(theForm) {
       document.getElementById("displayCost").innerHTML = "BDT  " + localStorage.getItem("totalCost");
-      document.getElementById("totalCost").innerHTML = localStorage.getItem("totalCost");
+      document.getElementById("totalCost").value = localStorage.getItem("totalCost");
       document.getElementById("itemsOrdered").innerHTML = localStorage.getItem("productsInCart");
       console.log(localStorage.getItem("totalCost"));
       console.log(localStorage.getItem("productsInCart"));
