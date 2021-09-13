@@ -5,3 +5,4 @@ from .models import *
 
 admin.site.register(ContactUs_T)
 admin.site.register(Orders_T)
+admin.site.register(MailingList_T)

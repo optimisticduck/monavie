@@ -14,3 +14,6 @@ class Orders_T(models.Model):
     delins = models.CharField(max_length=60)
     totalCost = models.CharField(max_length=80)
     itemsOrdered = models.TextField(max_length=80)
+
+class MailingList_T(models.Model):
+    mailemail = models.CharField(max_length=30)

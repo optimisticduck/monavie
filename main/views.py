@@ -21,6 +21,17 @@ def home(request):
     else:
         return render(request, "main/home.html")
 
+def homeMail(request):
+    if request.method == "POST":
+        mailemail = request.POST["mailemail"]
+
+        MailingList = MailingList_T(
+            mailemail=mailemail
+        )
+        MailingList.save()
+        return render(request, "main/home.html")
+    else:
+        return render(request, "main/home.html")
 
 def shop(request):
     return render(request, "main/shop.html")

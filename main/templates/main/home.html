@@ -105,8 +105,11 @@
           Join our mailing list
         </h2>
       </div>
-      <input type="text"><br><br>
-      <input type="submit" value="Submit">
+      <form action="{% url 'homeMail' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="mailemail"><br><br>
+        <input type="submit" value="Submit">
+      </form>
     </div>
     <div id="mapsection" class="text-center">
       <style type="text/css">
