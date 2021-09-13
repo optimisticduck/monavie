@@ -52,8 +52,8 @@
       <input type="text" id="number" name="number" placeholder="Number"><br><br>
       <input type="text" id="cusaddress" name="cusaddress" placeholder="Address"><br><br>
       <input type="text" id="delins" name="delins" placeholder="Delivery Instructions"><br><br>
-      <input type="hidden" id="itemsOrdered" name="itemsOrdered">
-      <input type="hidden" id="totalCost" name="totalCost">
+      <p type="hidden" id="itemsOrdered" name="itemsOrdered">
+      <p type="hidden" id="totalCost" name="totalCost">
       <p id="displayCost" name="displayCost"></p>
       <input type="submit" value="Submit">
     </form>
@@ -71,7 +71,7 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
   <script>
-    document.getElementById("displayCost").innerHTML = "Total Cost: " + localStorage.getItem("totalCost");
+    document.getElementById("displayCost").innerHTML = "BDT  " + localStorage.getItem("totalCost");
     document.getElementById("totalCost").innerHTML = localStorage.getItem("totalCost");
     document.getElementById("itemsOrdered").innerHTML = localStorage.getItem("productsInCart");
   </script>
