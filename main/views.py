@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect
 from django.http import HttpResponse
+import json
 from .models import *
 
 # Create your views here.
@@ -50,6 +51,8 @@ def orderdetails(request):
         delins = request.POST["delins"]
         totalCost = request.POST["totalCost"]
         itemsOrdered = request.POST["itemsOrdered"]
+
+        itemsOrdered = json.loads(itemsOrdered)
 
         orders = Orders_T(
             fname=fname,

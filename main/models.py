@@ -13,4 +13,4 @@ class Orders_T(models.Model):
     cusaddress = models.CharField(max_length=50)
     delins = models.CharField(max_length=60)
     totalCost = models.CharField(max_length=80)
-    itemsOrdered = models.CharField(max_length=80)
+    itemsOrdered = models.TextField(max_length=80)
