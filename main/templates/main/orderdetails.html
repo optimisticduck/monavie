@@ -71,10 +71,10 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
   <script>
+    document.getElementById("displayCost").innerHTML = "BDT  " + localStorage.getItem("totalCost");
     function validateFormOnSubmit(theForm) {
-      document.getElementById("displayCost").innerHTML = "BDT  " + localStorage.getItem("totalCost");
       document.getElementById("totalCost").value = localStorage.getItem("totalCost");
-      document.getElementById("itemsOrdered").innerHTML = localStorage.getItem("productsInCart");
+      document.getElementById("itemsOrdered").value = localStorage.getItem("productsInCart");
       console.log(localStorage.getItem("totalCost"));
       console.log(localStorage.getItem("productsInCart"));
     }
